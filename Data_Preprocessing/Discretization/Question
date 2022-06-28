@@ -1,2 +1,9 @@
+Data is one of the most important assets. It is often common that data is stored in distinct systems with different formats and scales. 
+These seemingly small differences in how the data is stored can result in misinterpretations and inconsistencies in your analytics.
+Inconsistency can make it impossible to deliver reliable information to management for good decision making.
+We have the preprocessing techniques to make the data uniform. Explore the various techniques to have reliable uniform standard data.
+
+
+
 1)	Convert the continuous data into discrete classes on iris dataset.
 Prepare the dataset by performing the preprocessing techniques, to have the data which improve model performance.
