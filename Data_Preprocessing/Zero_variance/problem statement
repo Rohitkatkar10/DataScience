@@ -1,0 +1,8 @@
+Variance measures how far a set of data is spread out.
+A variance of zero indicates that all the data values are identical. 
+There are various techniques to remove this for transforming the data into the suitable one 
+for prediction.
+
+
+Find which columns of the given dataset with zero variance, explore various techniques used to
+remove the zero variance from the dataset to perform certain analysis.
