@@ -1,0 +1,7 @@
+Problem statement:
+Data collected may have duplicate entries, that might be because the data collected were not at regular intervals or any other reason. To build a proper solution on such data will be a tough ask. The common techniques are either removing duplicates completely or substitute those values with a logical data. There are various techniques to treat these types of problems.
+
+Q1. For the given dataset perform the type casting (convert the datatypes, ex. float to int)
+Q2. Check for the duplicate values, and handle the duplicate values (ex. drop)
+Q3. Do the data analysis (EDA)?
+Such as histogram, boxplot, scatterplot etc
