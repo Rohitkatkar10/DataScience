@@ -1,0 +1,8 @@
+Data is one of the most important assets. It is often common that data is stored in distinct systems with different formats and forms.
+Non-numeric form of data makes it tricky while developing mathematical equations for prediction models.
+We have the preprocessing techniques to make the data convert to numeric form. Explore the various techniques to have reliable uniform standard data.
+
+
+
+
+1)	Prepare the dataset by performing the preprocessing techniques, to have the all the features in numeric format.
