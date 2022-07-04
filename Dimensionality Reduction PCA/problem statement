@@ -1,0 +1,55 @@
+Problem Statement 1: -
+Perform hierarchical and K-means clustering on the dataset. After that, perform PCA on the dataset and extract the first 3 principal components and make a new dataset with these 3 principal components as the columns. Now, on this new dataset, perform hierarchical and K-means clustering. Compare the results of clustering on the original dataset and clustering on the principal components dataset (use the scree plot technique to obtain the optimum number of clusters in K-means clustering and check if you’re getting similar results with and without PCA).
+
+
+ 
+Analysis:
+ 
+Agglomerative Clustering on original dataset
+ 
+Agglomerative Clustering on PCA dataset with first 3 principal Components. 
+
+1.	Hierarchical Clustering:  Here based on dendrogram plot, I thought, 5 should be idea cluster size for both the datasets. However, each cluster showing almost same mean data for both datasets. Highest Alcohol content in both data sets is over 13, and lowest at 12, there is slightly different in decimals. Highest Malice stand at 3.29 and 3.25. highest Alcalinity at 25.54 and 25.47. 
+If we go comparing all the variables one by one, considering all values in clustering with original dataset are true and reference, then all the similar values calculated from principal data are almost equal. There is slightly difference in the values.  However, in original dataset we considering 13 variables and in principal component we considering mere 3 principal component variables. 
+PCA datasets giving almost same accuracy that of original dataset. 
+2.	K-Means clustering:
+ 
+K-Means clustering with original dataset
+ 
+K-Means clustering with PCA dataset with first 3 PC.
+Note: it was not possible to select cluster size from scree plot. Since scree plot shows constant line for first 3 PC and considering all pc as one dataset. Hence, I selected 3 cluster size. So, I can compare both the datasets well.
+Highest alcohol content in wine in original data set is 13.76 and in PCA data is 13.63.  Malice is at 3.29 in both data. In this way here PCA data with mere 3 principal components give almost same clustering data compared with original data.
+
+
+
+
+
+Problem Statement 2: -
+
+A pharmaceuticals manufacturing company is conducting a study on a new medicine to treat heart diseases. The company has gathered data from its secondary sources and would like you to provide high level analytical insights on the data. Its aim is to segregate patients depending on their age group and other factors given in the data. Perform PCA and clustering algorithms on the dataset and check if the clusters formed before and after PCA are the same and provide a brief report on your model. You can also explore more ways to improve your model. 
+
+Note: This is just a snapshot of the data. The datasets can be downloaded from AiSpry LMS in the Hands-On Material section.  
+
+Analysis:
+1.	Hierarchical Clustering:
+ 
+Agglomerative Clustering on original dataset
+Agglomerative Clustering on PCA dataset with first 10 principal Components.
+
+Here, we will compare original data with PCA data. Now see observation in following clusters:
+ Cluster 3 = cluster 5 (of PCA), cluster 5 = cluster4 (of PCA), cluster 4 = cluster 2 (of PCA) 
+All this clusters are same in original data and PCA data. Out of 6 clusters, 3 clusters are almost same, there are minor change in numbers after decimal points. 
+but highest age in PCA is 62 whereas in original data it is 61 which is second highest in PCA data. 
+IN PCA data we are taking up to 95% of accuracy and taking only first 10 Principal components leaving 4 PCA out. 
+In this way we are getting almost same clustering with only 10 columns as compared to 14 columns of original dataset. 
+2.	K-Means Clustering:
+ 
+ K-Means clustering with original dataset
+ 
+K-Means clustering with PCA dataset with first 10 PC.
+I have taken 10 Principal components of PCA data sets. Here we are getting almost 100% accuracy compared to original data set. Compare cluster
+Cluster 0 = cluster 1 (of PCA)
+Cluster 1 = cluster 0
+Cluster 2 = cluster 2 
+Cluster 3 =cluster 3 
+All above clusters are same, 10 PCA components shows same accuracy as 14 columns of original data.
