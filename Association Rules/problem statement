@@ -1,0 +1,79 @@
+Problem Statement: -
+Kitabi Duniya, a famous book store in India, which was established before Independence, the growth of the company was incremental year by year, but due to online selling of books and wide spread Internet access its annual growth started to collapse, seeing sharp downfalls, you as a Data Scientist help this heritage book store gain its popularity back and increase footfall of customers and provide ways the business can improve exponentially, apply Association RuleAlgorithm, explain the rules, and visualize the graphs for clear understanding of solution.
+1.) Books.csv
+
+Business obj: increase the book sale.
+Constrain : use of latest technology. 
+
+From the visualization, it is very clear that child books and cook books are the most sold item in the data. Whereas ItalAtlas and ItalArt are the least sold item in this data. 
+From the first two rows, we can say that, people who buy ItalCook are most likely to buy ItalArt Book. 
+People who buy refbook most likely to buy ItalAtlas book. Their lift ratio is also high. 
+There is most chances the Art book will increase its selling. Since in first ten rules on any combination Art Book is purchased.  
+
+
+
+Problem Statement: - 
+The Departmental Store, has gathered the data of the products it sells on a Daily basis.
+Using Association Rules concepts, provide the insights on the rules and the plots.
+2.) Groceries.csv
+
+Groceries data deals with item sold in vegetable market. The above table shows top ten good rules. From visualization for the most sold item. Clearly, milk is most sold, followed by vegetable, rolls, soda, so on. 
+But if you see, if customer buy yogurt and milk, then customer buy curd also. Followed by if customer buy other veg and citrus fruit then customer also buys root veg. sometimes pastry also purchased if customer purchases whole milk. Lift for all top ten rules is greater than one hence all ten rules are good rules. 
+Hence shopkeeper should make a note of this and work accordingly. 
+
+
+
+Problem Statement: - 
+A film distribution company wants to target audience based on their likes and dislikes, you as a Chief Data Scientist Analyze the data and come up with different rules of movie list so that the business objective is achieved.
+3.) my_movies.csv
+
+Business obj: find out dependency of movies. 
+Note: there were ‘nan’ values in the dataset. I changed them to ‘No_Movies’, since it was not possible for me to remove that.
+There is a strong relation between LOTR (Lord of The Rings) movies.
+If audience watch Sixth Sense and Gladiator then they watch LOTR.
+If audience watch LOTR1  & LOTR2 then they watch Harry potter 1.
+If audience watch LOTR2 & Sixth Sense then they watch Harry potter 1.
+If audience watch LOTR1 then they watch Harry potter1.      
+If audience watch Sixth Sense then they watch Green mile.
+If audience watch LOTR1 then they watch LOTR2.   
+If audience watch Gladiator then they watch Braveheart. 
+If audience watch Braveheart then they watch Patriot.    
+These are the strongest rules taken from Association rules.
+
+
+     
+
+Problem Statement: - 
+A Mobile Phone manufacturing company wants to launch its three brand new phone into the market, but before going with its traditional marketing approach this time it want to analyze the data of its previous model sales in different regions and you have been hired as an Data Scientist to help them out, use the Association rules concept and provide your insights to the company’s marketing team to improve its sales.
+4.) myphonedata.csv
+
+ 
+Business obj:  Help company to understand mobile selling pattern
+Since only first three columns has the data, rest columns are dummy columns for the data. 
+Color white and orange has strong relation. 
+If a customer buys white color phone, then people buy orange, green, blue, red.
+If a customer buys white & Blue or Green & white or Orange & white or only green or only orange color phone, then people buy red.
+If a customer buys only white color phone, then people buy blue.
+
+
+
+Problem Statement: - 
+A retail store in India, has its transaction data, and it would like to know the buying pattern of the 
+consumers in its locality, you have been assigned this task to provide the manager with rules 
+on how the placement of products needs to be there in shelves so that it can improve the buying
+patterns of consumes and increase customer footfall. 
+5.) transaction_retail.csv
+
+ 
+
+Business obj: To know the buying pattern of customers
+
+If customer buy BAKELIKE, then there is a highest probability of they may buy ALARM.
+If customer buy bottle, then they may buy water.
+If customer buy Hanging, then they may buy Holder.
+If customer buy palkadot, then they may buy Pink.
+If customer buy hanging and holder, then they may buy Heart.
+If customer buy LUNCH, then they may buy BAG.
+
+These are the main association pattern that can be followed by shopkeeper.  There are many patterns In code. But these are the top rules that can be considered while selling things.
+
