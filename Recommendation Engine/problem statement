@@ -1,0 +1,30 @@
+Problem Statement: -
+
+Q) Build a recommender system with the given data using UBCF.
+
+This dataset is related to the video gaming industry and a survey was conducted to build a 
+recommendation engine so that the store can improve the sales of its gaming DVDs. 
+Snapshot of the dataset is given below. Build a Recommendation Engine and suggest top selling 
+DVDs to the store customers.
+
+
+Analysis:
+If user 3 plays any game, then we will recommend that game to other lookalike users.
+These user ID are mentioned in above screen shot. 
+
+
+ 	
+Problem Statement: -
+
+The Entertainment Company, which is an online movie watching platform, wants to improve its
+collection of movies and showcase those that are highly rated and recommend those movies to its
+customer by their movie watching footprint. For this, the company has collected the data and shared
+it with you to provide some analytical insights and also to come up with a recommendation algorithm
+so that it can automate its process for effective recommendations. The ratings are between -9 and +9.
+
+
+Answer:
+
+If anyone looking for movie named – ‘Toy Story (1995)’, then our Recommendation Engine will recommend
+following movies.
+
