@@ -1,0 +1,17 @@
+Problem Statement: -
+There are two datasets consisting of information for the connecting routes and flight halt. Create network analytics models on both the datasets separately and measure degree centrality, degree of closeness centrality, and degree of in-between centrality.
+●	Create a network using edge list matrix (directed only).
+●	Columns to be used in R:
+
+Flight_halt=c("ID","Name","City","Country","IATA_FAA","ICAO","Latitude","Longitude","Altitude","Time","DST","Tz database time")
+
+connecting routes=c("flights", " ID", "main Airport”, “main Airport ID", "Destination ","Destination  ID","haults","machinary")
+
+
+
+Problem statement
+There are three datasets given (Facebook, Instagram, and LinkedIn). Construct and visualize the following networks:
+●	circular network for Facebook
+●	star network for Instagram
+●	star network for LinkedIn
+
