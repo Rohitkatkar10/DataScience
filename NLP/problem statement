@@ -1,0 +1,14 @@
+Problem Statement-1
+1)	Perform NLP – Topic Modelling and Text Summarization by following all
+the steps as mentioned below.
+2)	Data Cleaning using regular expressions, Countvectorizer, 
+POS Tagging, NER, Topic Modelling (LDA, LSA) and Text Summarization.
+Hint: - Use Data.csv file given in hands-on material.
+ 
+
+Problem Statement-2
+Perform Topic Modelling and Text Summarization on the given text data.
+Use the NLP-TM text file.
+
+ 
+
