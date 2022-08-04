@@ -1,0 +1,24 @@
+Problem Statements:
+1.	Officeworks is a leading retail store in Australia, with numerous outlets around the country. 
+The manager would like to improve the customer experience by providing them online predictive
+prices for their laptops if they want to sell them. To improve this experience the manager would 
+like us to build a model which is sustainable and accurate enough. Apply Lasso and Ridge Regression
+model on the dataset and predict the price, given other attributes. Tabulate R squared, RMSE, and 
+correlation values.
+
+
+ 
+
+
+2.	An online car sales platform would like to improve its customer base and their experience by 
+providing them an easy way to buy and sell cars. For this, they would like to have an automated
+model which can predict the price of the car once the user inputs the required factors. Help the 
+business achieve the objective by applying Lasso and Ridge Regression on it. Please use the below 
+columns for the analysis: Price, Age_08_04, KM, HP, cc, Doors, Gears, Quarterly_Tax, Weight.
+
+	 
+
+3.	Data of various countries and the factors affecting their life expectancy has been recorded 
+over the past few decades. An analytics firm would like to know how it varies country wise and
+what factors are influential. Use your skills to analyze the data and build a Lasso and Ridge 
+Regression model and summarize the output. Snapshot of the dataset is given below.
