@@ -1,0 +1,37 @@
+Problem Statement: -
+
+1.	The dataset consists of monthly totals of international airline passengers from 1995 to 2002.
+Our main aim is to predict the number of passengers for the next five years using time series
+forecasting. Prepare a document for each model explaining how many dummy variables you have
+created and also include the RMSE value for each model.
+File: - Airlines.xlsx
+
+ 
+Problem Statement: -
+
+2.	The dataset consists of quarterly sales data of Coca-Cola from 1986 to 1996. Predict sales 
+for the next two years by using time series forecasting and prepare a document for each model 
+explaining how many dummy variables you have created and also include the RMSE value for each
+model.
+File:- CocaCola_Sales_RawData.xlsx
+
+
+Problem Statement: - 
+
+A plastics manufacturing plant has recorded their monthly sales data from 1949 to 1953. Perform 
+forecasting on the data and bring out insights from it and forecast the sale for the next year.
+Plastic Sales.csv
+
+ 
+Problem Statement: -
+
+Solar power consumption has been recorded by city councils at regular intervals. The reason 
+behind doing so is to understand how businesses are using solar power so that they can cut
+down on nonrenewable sources of energy and shift towards renewable energy. Based on the data, 
+build a forecasting model and provide insights on it. 
+Solarpower.csv
+
+ 
+
+
+
